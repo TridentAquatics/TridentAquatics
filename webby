@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trident Aquatics - Swimming Lessons in Singapore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .testimonials, .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .testimonials div, .gallery img {
+            margin: 1rem;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            background-color: #fff;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #0077b6;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trident Aquatics</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to Trident Aquatics</h2>
+        <p>Trident Aquatics, based in Singapore, offers professional swimming lessons for all ages, from 4-month-old babies to adults looking to improve their strokes. We are ASCTA certified and dedicated to providing a safe and fun learning environment for all our students.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Trident Aquatics, we believe in fostering a love for swimming through creativity and professional instruction. Our team of certified instructors is passionate about helping students of all ages achieve their swimming goals. Whether you're a beginner or looking to refine your technique, we have the right program for you.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Baby Swim Classes (4 months and up)</li>
+            <li>Kids Learn to Swim Programs</li>
+            <li>Adult Stroke Improvement Sessions</li>
+            <li>Private and Group Lessons</li>
+            <li>Competitive Swim Training</li>
+        </ul>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div>
+            <p>"Our baby loves the swim classes at Trident Aquatics! The instructors are so patient and experienced." - Jane Doe</p>
+        </div>
+        <div>
+            <p>"I've seen tremendous improvement in my strokes thanks to the dedicated coaching at Trident Aquatics." - John Smith</p>
+        </div>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="baby-swim.jpg" alt="Baby Swim Class">
+        <img src="kids-swim.jpg" alt="Kids Swim Class">
+        <img src="adult-swim.jpg" alt="Adult Swim Class">
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to enroll in our classes, please contact us:</p>
+        <p>Email: info@tridentaquatics.sg</p>
+        <p>Phone: +65 1234 5678</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Trident Aquatics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
